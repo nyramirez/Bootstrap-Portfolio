@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Artifika|Carrois+Gothic" rel="stylesheet">    <link rel="stylesheet" href="./assets/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+            <div class="col-sm-7">    
+                <p class="navbar-brand name">Nestor Ramirez</p>
+            </div>
+            
+            <!-- Link menu -->
+            <div class="col-sm-5 navbar-collapse" id="navbarTogglerDemo03">
+                  
+                <ul class="navbar-nav mr-auto mt-3 mt-lg-0">
+                    <li class="nav-item links">
+                      <a class="nav-link" href="./index.html">About Me </a>
+                    </li>
+                    <li class="nav-item active links">
+                      <a class="nav-link" href="./contact.html">Contact </a>
+                    </li>
+                    <li class="nav-item links">
+                      <a class="nav-link" href="./portfolio.html">Portfolio </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Body of the form -->
+    <div class="container textBody">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="titleBody mt-3">Contact</h2>
+            </div>
+        </div>
+        <hr>
+        <form>
+            <div class="form-group">
+                <label for="Name and Lastname">Name and Lastname </label>
+                <input type="text" class="form-control" id="Name and Lastname" placeholder="Name and Lastname">
+            </div>
+            
+            <div class="form-group">
+                <label for="e-mail address">e-Mail Address</label>
+                <input type="email" class="form-control" id="e-mail address" placeholder="e-mail address">
+            </div>
+            
+            <div class="form-group">
+                <label for="customMessage">Please leave a message:</label>
+                <textarea class="form-control" id="customMessage" rows="6"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

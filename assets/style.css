@@ -1,9 +1,49 @@
 .name {
     font-size: 30px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Artifika', serif;
 }
 
 .links {
     font-size: 20px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Carrois Gothic', sans-serif;
 }
+
+.titleBody {
+    font-size: 28px;
+    font-family: 'Artifika', serif;
+
+}
+
+.textBody {
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.aboutMeBody {
+    height: 90%;
+    /* background-color: red; */
+}
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
